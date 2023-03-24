@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MobilePay Health</title>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+  <noscript>Your browser does not support JavaScript!</noscript>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+  <!-- <script>
+    window.addEventListener("load", (event) => {
+      mapboxgl.accessToken = "pk.eyJ1IjoiY3J3bmQiLCJhIjoiY2xmaTQ1Y2NwMDVqbjNvcG41Z2x0d3Y2dCJ9.i0arSZ2VpeDgE6PZXVNUxg";
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+      });
+      map.addControl(new mapboxgl.NavigationControl());
+
+      var marker = new mapboxgl.Marker({
+        color: '#FF5733',
+        size: 'large',
+        rotation: 0,
+        // offset: [0, -20]
+      })
+        .setLngLat([9.528939,53.842279])
+        .addTo(map);
+    });
+  </script> -->
+</body>
+
+</html>
